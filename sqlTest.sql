@@ -58,7 +58,7 @@ VALUES
 --- Section 1: 1 mark each
 
 --1. Write a query to display the artist names in uppercase.
-select toUpperCase(name)
+select upper(name)
 from artists
 
 --2. Write a query to find the top 2 highest-priced artworks and the total quantity sold for each.
